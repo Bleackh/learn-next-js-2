@@ -1,9 +1,10 @@
+import Heading from "@/components/Header";
+
 export default function Home() {
-    console.log("Hello World2");
+    // console.log("Hello World2");
     return (
         <>
-            <h1>Home Page</h1>
-            <p>This is the home page.</p>
+            <Heading className="text-3xl font-bold pb-3">Home Page</Heading>
         </>
     )
 }

@@ -1,8 +1,28 @@
-export default function Blog() {
+import Link from "next/link";
+import Heading from "@/components/Header";
+import Image from "next/image";
+import PostCard from "@/components/PostCard";
+import { getAllPosts } from "@/lib/post";
+
+export default async function Blog() {
+    const posts = await getAllPosts();
+    console.log(posts);
     return (
         <>
-            <h1>Blog Page</h1>
-            <p>This is the blog page.</p>
+            <Heading>Blog Page</Heading>
+            <p className="text-2xl mb-3">This is the blog page.</p>
+
+            {posts.map((post) => (
+                <PostCard
+                    key={post.title}
+                    title={post.title}
+                    href={`/blog/${post.slug}`}
+                    image={post.image}
+                    description={post.description}
+                    date={post.date}
+                    author={post.author}
+                />
+            ))}
         </>
     )
 }

@@ -1,7 +1,9 @@
+import Heading from "@/components/Header";
+
 export default function Contact() {
     return (
         <>
-            <h1>Contact Page</h1>
+            <Heading>Contact Page</Heading>
             <p>This is the contact page.</p>
         </>
     )
