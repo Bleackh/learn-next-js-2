@@ -1,5 +1,9 @@
 import Heading from "@/components/Header";
 
+export const metadata = {
+    title: "Contact Page"
+}
+
 export default function Contact() {
     return (
         <>

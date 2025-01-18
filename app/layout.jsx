@@ -3,11 +3,13 @@ import React from 'react'
 import Navbar from '@/components/Navbar'
 import './global.css'
 import { roboto } from './fonts'
-import { Metadata } from "next"
 
 export const metadata = {
-    title: 'Situ Next.JS',
-    description: 'Kumpulan Tutorial Framwork Javascript',
+    title: {
+        default: 'Learn Next.JS',
+        template: '%s | Learn Next.JS'
+    },
+    description: 'Ayooo Learn Next.JS!'
 }
 
 export default function Layout({ children }) {
@@ -16,7 +18,6 @@ export default function Layout({ children }) {
             <head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Learn Next JS</title>
             </head>
             <body className='bg-gray-100 flex flex-col p-6 min-h-screen'>
                 <header>

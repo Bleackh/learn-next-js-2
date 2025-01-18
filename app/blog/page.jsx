@@ -4,9 +4,12 @@ import Image from "next/image";
 import PostCard from "@/components/PostCard";
 import { getAllPosts } from "@/lib/post";
 
+export const metadata = {
+    title: "Blog Page"
+}
+
 export default async function Blog() {
     const posts = await getAllPosts();
-    console.log(posts);
     return (
         <>
             <Heading>Blog Page</Heading>
