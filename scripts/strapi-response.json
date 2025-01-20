@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "documentId": "xakcguebdty7kkq1d2a1blfx",
+      "title": "Belajar Strapi",
+      "description": "Konten untuk belajar strapi",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis dapibus ante, quis ultrices massa. Cras viverra ullamcorper diam nec aliquet. Cras vehicula at leo quis malesuada. Proin id egestas diam. Phasellus id sapien varius, cursus lectus sit amet, fringilla libero. Donec eu ipsum urna. Donec mollis mi fermentum odio pulvinar, sed tincidunt augue pharetra. In et sollicitudin tortor, sit amet scelerisque leo. Nunc consectetur efficitur massa vel varius. Proin id fringilla nisl, eget maximus ipsum. Donec ligula sapien, aliquam eget odio a, accumsan ultrices eros. Nulla molestie, neque vel tempor feugiat, nibh ante aliquam libero, eget rhoncus eros felis at velit. Quisque molestie dapibus sem at dictum. Cras facilisis massa mi, sit amet tristique justo imperdiet nec.",
+      "slug": "belajar-strapi",
+      "createdAt": "2025-01-18T06:52:20.054Z",
+      "updatedAt": "2025-01-18T06:52:22.980Z",
+      "publishedAt": "2025-01-18T06:52:23.000Z",
+      "image": {
+        "id": 1,
+        "documentId": "q3j9krfkukyebq16fz57ride",
+        "name": "image-6.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1760,
+        "height": 905,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "/uploads/large_image_6_57d278db47.png",
+            "hash": "large_image_6_57d278db47",
+            "mime": "image/png",
+            "name": "large_image-6.png",
+            "path": null,
+            "size": 186.34,
+            "width": 1000,
+            "height": 514,
+            "sizeInBytes": 186339
+          },
+          "small": {
+            "ext": ".png",
+            "url": "/uploads/small_image_6_57d278db47.png",
+            "hash": "small_image_6_57d278db47",
+            "mime": "image/png",
+            "name": "small_image-6.png",
+            "path": null,
+            "size": 55.32,
+            "width": 500,
+            "height": 257,
+            "sizeInBytes": 55317
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "/uploads/medium_image_6_57d278db47.png",
+            "hash": "medium_image_6_57d278db47",
+            "mime": "image/png",
+            "name": "medium_image-6.png",
+            "path": null,
+            "size": 110.28,
+            "width": 750,
+            "height": 386,
+            "sizeInBytes": 110275
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "/uploads/thumbnail_image_6_57d278db47.png",
+            "hash": "thumbnail_image_6_57d278db47",
+            "mime": "image/png",
+            "name": "thumbnail_image-6.png",
+            "path": null,
+            "size": 17.18,
+            "width": 245,
+            "height": 126,
+            "sizeInBytes": 17180
+          }
+        },
+        "hash": "image_6_57d278db47",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 174.22,
+        "url": "/uploads/image_6_57d278db47.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-01-18T06:51:54.359Z",
+        "updatedAt": "2025-01-18T06:51:54.359Z",
+        "publishedAt": "2025-01-18T06:51:54.361Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}
