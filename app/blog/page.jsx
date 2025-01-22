@@ -8,6 +8,8 @@ export const metadata = {
     title: "Blog Page"
 }
 
+export const revalidate = 30;
+
 export default async function Blog() {
     const posts = await getAllPosts();
     return (

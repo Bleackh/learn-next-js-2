@@ -14,44 +14,12 @@
         "documentId": "bgk3f327xk7qqe8zxknmrrlc",
         "url": "/uploads/image_5_13696272be.png"
       }
-    },
-    {
-      "id": 9,
-      "documentId": "v3dugrr0ijmp851ihk1dr0wc",
-      "slug": "belajar-next-js",
-      "title": "Belajar Next.js",
-      "description": "Next.js is a React framework for building full-stack web applications",
-      "publishedAt": "2025-01-21T07:20:42.625Z",
-      "author": "admin",
-      "body": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.\n\nUnder the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.\n\nWhether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.",
-      "image": {
-        "id": 2,
-        "documentId": "juzplsi1o4m8egrwkx1gt70r",
-        "url": "/uploads/image_1_35cd9cbfe8.png"
-      }
-    },
-    {
-      "id": 8,
-      "documentId": "o4h4c0oq5ghm86u8etkwkunl",
-      "slug": "belajar-react-js",
-      "title": "Belajar React JS",
-      "description": "React JS is a JavaScript library for building user interfaces",
-      "publishedAt": "2025-01-21T07:20:10.718Z",
-      "author": "admin2",
-      "body": "React JS is a JavaScript library for building user interfaces. You use React Components to build user interfaces, and React for additional features and optimizations.\n\nUnder the hood, React JS also abstracts and automatically configures tooling needed for JavaScript, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.\n\nWhether you're an individual developer or part of a larger team, React JS can help you build interactive, dynamic, and fast JavaScript applications.",
-      "image": {
-        "id": 3,
-        "documentId": "ar2wxrt4uqekp59yg9cb0mvj",
-        "url": "/uploads/image_2_32ad3ffa87.png"
-      }
     }
   ],
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 3,
-      "pageCount": 2,
-      "total": 4
+      "pageSize": 3
     }
   }
 }
